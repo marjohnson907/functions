@@ -13,7 +13,15 @@ user_unit = input("What unit is your number? ")
 # to convert mm to inches, take mm divide by 25.4
 
 # user gives inches unit
-conv_number = user_number * 25.4
+
+if(user_unit == 'in'):
+    conv_number = user_number * 25.4
+    #perform calculation in to mm
+elif(user_unit == 'mm'):
+    conv_number = user_number / 25.4
+    #perform mm to in calc
+
+
 
 print(conv_number)
 print(user_unit)
