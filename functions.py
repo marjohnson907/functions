@@ -33,6 +33,7 @@ while True: # continue program until user exits
         if valid_data:
             print('User number', user_number)
             print('User unit', user_unit)
+            break
     # perform calculations
     if(user_unit == 'in'):
         conv_number = user_number * 25.4
